@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "bfdcfca3adeb3568bdba86c4",
+  "owner": "vwd3ggpu",
+  "repo": "page-fcd9035d816935b241f0a9d4",
+  "title": "有恒云",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "fcd9035d816935b241f0a9d4",
+      "a": "有恒云",
+      "b": "",
+      "entity": "有恒云",
+      "brand": "有恒云",
+      "separator": "",
+      "path": "index.html",
+      "hash": "834ca147d6c721f40f6bb7e913c87ed62c0adca357422b6e9675f6d2f94fe729",
+      "content": {
+        "keyword1": "有恒云",
+        "keyword2": "",
+        "primary_entity": "有恒云",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "有恒云提供稳定高效的云端网络架构与协作服务，以严谨的数据标准和简洁的架构，满足各类数字化团队的连接需求。",
+          "AI_DESCRIPTION": "有恒云提供稳定高效的云端网络架构与协作服务，以严谨的数据标准和简洁的架构，满足各类数字化团队的连接需求。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-color: #0a0a0a;--panel-bg: #141414;--text-main: #f0f0f0;--text-muted: #888888;--accent: #00ff66;--accent-dim: rgba(0, 255, 102, 0.1);--border-color: #262626;--radius: 16px;--font-sans: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif}\n\n* {box-sizing: border-box;margin: 0;padding: 0}\n\nbody {background-color: var(--bg-color);color: var(--text-main);font-family: var(--font-sans);line-height: 1.6;padding: 0;overflow-x: hidden}\n\nheader {border-bottom: 1px solid var(--border-color);background: var(--bg-color);position: sticky;top: 0;z-index: 100}\n\n.header-container {max-width: 1200px;margin: 0 auto;padding: 1.2rem 2rem;display: flex;justify-content: space-between;align-items: center}\n\n.logo {font-size: 1.25rem;font-weight: 700;color: var(--text-main);letter-spacing: -0.05em;text-decoration: none}\n\n.logo span {color: var(--accent)}\n\n.nav-links {display: flex;gap: 2rem;list-style: none}\n\n.nav-links a {color: var(--text-muted);text-decoration: none;font-size: 0.9rem;transition: color 0.2s}\n\n.nav-links a:hover {color: var(--accent)}\n\nmain {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem}\n\n/* Hero: 左文右信息面板不对称分栏 */\n.hero {display: grid;grid-template-columns: 1.2fr 0.8fr;gap: 4rem;align-items: center;margin-bottom: 6rem}\n\n.hero-content h1 {font-size: 3.5rem;font-weight: 800;line-height: 1.1;letter-spacing: -0.03em;margin-bottom: 1.5rem}\n\n.hero-content h1 span {color: var(--accent)}\n\n.hero-content p {font-size: 1.15rem;color: var(--text-muted);margin-bottom: 2rem;max-width: 500px}\n\n.hero-cta {display: inline-block;background-color: var(--accent);color: #000;font-weight: 600;padding: 0.9rem 2rem;border-radius: var(--radius);text-decoration: none;transition: opacity 0.2s}\n\n.hero-cta:hover {opacity: 0.9}\n\n.hero-panel {background-color: var(--panel-bg);border: 1px solid var(--border-color);border-radius: var(--radius);padding: 2.5rem;box-shadow: 0 20px 40px rgba(0,0,0,0.5)}\n\n.hero-panel h3 {font-size: 1.1rem;margin-bottom: 1.5rem;color: var(--text-main);border-bottom: 1px solid var(--border-color);padding-bottom: 0.75rem}\n\n.metric-grid {display: grid;grid-template-columns: 1fr 1fr;gap: 1.5rem}\n\n.metric-item .value {font-size: 1.75rem;font-weight: 700;color: var(--accent);margin-bottom: 0.25rem}\n\n.metric-item .label {font-size: 0.85rem;color: var(--text-muted)}\n\n/* Features section */\n.section {margin-bottom: 6rem}\n\n.section-title {font-size: 2rem;font-weight: 700;margin-bottom: 1rem;letter-spacing: -0.02em}\n\n.section-desc {color: var(--text-muted);font-size: 1.05rem;margin-bottom: 3rem;max-width: 600px}\n\n.features-grid {display: grid;grid-template-columns: repeat(3, 1fr);gap: 2rem}\n\n.card {background-color: var(--panel-bg);border-radius: var(--radius);padding: 2.5rem;box-shadow: 0 10px 30px rgba(0,0,0,0.3);border: 1px solid var(--border-color)}\n\n.card h3 {font-size: 1.25rem;margin-bottom: 1rem;color: var(--text-main)}\n\n.card p {color: var(--text-muted);font-size: 0.95rem}\n\n/* Plans section: 横向对比表格 */\n.plans-container {overflow-x: auto}\n\n.plans-table {width: 100%;border-collapse: collapse;background-color: var(--panel-bg);border-radius: var(--radius);overflow: hidden;border: 1px solid var(--border-color)}\n\n.plans-table th,\n.plans-table td {padding: 1.5rem;text-align: left;border-bottom: 1px solid var(--border-color)}\n\n.plans-table th {background-color: rgba(255, 255, 255, 0.02);font-weight: 600;font-size: 1.1rem}\n\n.plans-table tr:last-child td {border-bottom: none}\n\n.price-tag {font-size: 1.5rem;font-weight: 700;color: var(--accent)}\n\n.feature-check {color: var(--accent)}\n\n.btn-plan {display: inline-block;background: var(--accent-dim);color: var(--accent);padding: 0.6rem 1.2rem;border-radius: 8px;text-decoration: none;font-weight: 600;font-size: 0.85rem;border: 1px solid var(--accent);transition: all 0.2s}\n\n.btn-plan:hover {background: var(--accent);color: #000}\n\n/* FAQ section: 双栏问答 */\n.faq-grid {display: grid;grid-template-columns: 1fr 1fr;gap: 2rem}\n\n.faq-item {background-color: var(--panel-bg);border: 1px solid var(--border-color);border-radius: var(--radius);padding: 2rem}\n\n.faq-item h3 {font-size: 1.1rem;margin-bottom: 0.75rem;color: var(--text-main)}\n\n.faq-item p {color: var(--text-muted);font-size: 0.95rem}\n\nfooter {border-top: 1px solid var(--border-color);padding: 3rem 0;text-align: center;color: var(--text-muted);font-size: 0.85rem}\n\n@media (max-width: 900px) {\n  .hero {grid-template-columns: 1fr;gap: 3rem}\n  .features-grid {grid-template-columns: 1fr}\n  .faq-grid {grid-template-columns: 1fr}\n  .nav-links {display: none}\n}\n</style><header>\n  <div class=\"header-container\">\n    <a href=\"#\" class=\"logo\">有恒云 <span>//</span></a>\n    <ul class=\"nav-links\">\n      <li><a href=\"#features\">架构特性</a></li>\n      <li><a href=\"#plans\">服务方案</a></li>\n      <li><a href=\"#faq\">常见问题</a></li>\n    </ul>\n  </div>\n</header>\n\n<main>\n  <section class=\"hero\">\n    <div class=\"hero-content\">\n      <h1>有恒云 · 稳定高效的<span>云端网络</span>架构。</h1>\n      <p>有恒云为追求极致稳定与数据流转效率的团队和个人，提供现代化网络连接方案。严谨设计，清爽体验。</p>\n      <a href=\"#plans\" class=\"hero-cta\">查看可用方案</a>\n    </div>\n    <div class=\"hero-panel\">\n      <h3>系统运行指标</h3>\n      <div class=\"metric-grid\">\n        <div class=\"metric-item\">\n          <div class=\"value\">99.9%</div>\n          <div class=\"label\">可用性保障</div>\n        </div>\n        <div class=\"metric-item\">\n          <div class=\"value\">0.1ms</div>\n          <div class=\"label\">基准响应时延</div>\n        </div>\n        <div class=\"metric-item\">\n          <div class=\"value\">10Gbps</div>\n          <div class=\"label\">骨干网端口</div>\n        </div>\n        <div class=\"metric-item\">\n          <div class=\"value\">7x24</div>\n          <div class=\"label\">监控与维护</div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"features\" class=\"section\">\n    <h2 class=\"section-title\">核心设计架构</h2>\n    <p class=\"section-desc\">抛弃冗余，回归本质。我们专注于每一个数据包的高效送达。</p>\n    <div class=\"features-grid\">\n      <div class=\"card\">\n        <h3>多线智能路由</h3>\n        <p>自动识别网络环境并匹配最优传输路径，降低延迟，保障连接稳定性。</p>\n      </div>\n      <div class=\"card\">\n        <h3>高强度传输加密</h3>\n        <p>采用工业级加密协议，严格保护传输过程中的数据隐私与完整性。</p>\n      </div>\n      <div class=\"card\">\n        <h3>弹性资源分配</h3>\n        <p>根据实际负载按需调度带宽资源，高峰期依然保持平稳流畅。</p>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"plans\" class=\"section\">\n    <h2 class=\"section-title\">服务方案</h2>\n    <p class=\"section-desc\">透明的定价策略，满足不同规模的连接需求。</p>\n    <div class=\"plans-container\">\n      <table class=\"plans-table\">\n        <thead>\n          <tr>\n            <th>方案名称</th>\n            <th>每月价格</th>\n            <th>流量额度</th>\n            <th>设备并发</th>\n            <th>核心权益</th>\n            <th>操作</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>基础版</strong></td>\n            <td><span class=\"price-tag\">¥15</span>/月</td>\n            <td>100GB</td>\n            <td>3 台</td>\n            <td>解锁基础流媒体 / 普通节点</td>\n            <td><a href=\"#\" class=\"btn-plan\">选择方案</a></td>\n          </tr>\n          <tr>\n            <td><strong>旗舰版</strong></td>\n            <td><span class=\"price-tag\">¥35</span>/月</td>\n            <td>300GB</td>\n            <td>5 台</td>\n            <td>原生流媒体解锁 / IPLC 专线优化</td>\n            <td><a href=\"#\" class=\"btn-plan\">选择方案</a></td>\n          </tr>\n          <tr>\n            <td><strong>团队版</strong></td>\n            <td><span class=\"price-tag\">¥85</span>/月</td>\n            <td>1000GB</td>\n            <td>20 台</td>\n            <td>VIP 高带宽节点 / 企业定制路由</td>\n            <td><a href=\"#\" class=\"btn-plan\">选择方案</a></td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>\n\n  <section id=\"faq\" class=\"section\">\n    <h2 class=\"section-title\">常见问题</h2>\n    <p class=\"section-desc\">解答您关于使用与接入的常规疑问。</p>\n    <div class=\"faq-grid\">\n      <div class=\"faq-item\">\n        <h3>如何开始使用有恒云的服务？</h3>\n        <p>选择适合您的服务方案并完成订阅后，您将获得详细的配置指南与客户端接入凭证，按照指引即可快速完成设置。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>支持哪些主流设备和系统？</h3>\n        <p>我们全面兼容主流操作系统与多端客户端，包括桌面端与移动端，满足您在不同场景下的切换需求。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>流量是如何计算与重置的？</h3>\n        <p>所有方案的流量均在每个计费周期的起始日自动重置，支持双向流量统计，具体额度可在用户面板实时查看。</p>\n      </div>\n      <div class=\"faq-item\">\n        <h3>是否支持按年订阅优惠？</h3>\n        <p>支持。选择按年付方案可享受相应的价格优惠，具体金额在订单结算页面自动折算。</p>\n      </div>\n    </div>\n  </section>\n</main>\n\n<footer>\n  <p>© 有恒云 保留所有权利。</p>\n</footer>",
+          "hash": "bd03073adb9cb93c572a1203045ed27cf9ada2ab1e8484ae4bb00fc398b956b9",
+          "seo": {
+            "title": "有恒云 - 稳定高效的云端网络架构与协作服务",
+            "keywords": "有恒云,云端网络,企业协作,网络加速,专线接入",
+            "description": "有恒云提供稳定高效的云端网络架构与协作服务，以严谨的数据标准和简洁的架构，满足各类数字化团队的连接需求。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "2120",
+            "hero": "1 左文右信息面板的不对称分栏",
+            "palette": "1 墨黑配荧光绿",
+            "nav": "3 首屏内嵌锚点标签",
+            "card": "3 大圆角软阴影",
+            "plans_view": "1 横向对比表格",
+            "faq_view": "1 双栏问答",
+            "tone": "3 简洁利落的短句",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "penrock.cn",
+    "host": "p-43f04bee85.penrock.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "dd9dd14e50aa5d17edc943e36e01c4ea26b189937399f0be31d6ae7647de3a27",
+    "sitemap.xml": "f2103ad73c0330f9b04d209a564ea06a92d9aed15bb790918ded90cfc662b341",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "65c72255df5c0b4828300144c273cba51e815fc3343e08d5d4776b43b623f2a2",
+    "robots.txt": "b9d4d2b3e1223c18fc056e39b6bf40e9f9a665f9a88676676af75ecb6107d80e",
+    "e715e991aeaa83d4698fb1955228cfe8.txt": "3df7bb57fc59addd09c22d5175fd7c602af8d63ff1077eb3c660a7fab851d5a5"
+  },
+  "revision": "ee12e970d137bc6e1dce8c073eb278f1e1e06dd7ef3c10f62c027a28b38f80cd"
+}

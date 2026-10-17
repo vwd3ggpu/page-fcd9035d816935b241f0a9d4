@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-43f04bee85.penrock.cn/sitemap.xml
